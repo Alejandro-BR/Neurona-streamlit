@@ -21,12 +21,12 @@ with tab2:
     col1, col2 = st.columns(2)
 
     with col1:
-        w0 = st.slider("Peso W0", 0.0, 5.0, 1.0, key="t2slw1")
+        w0 = st.slider("Peso W$_0$", 0.0, 5.0, 1.0, key="t2slw1")
         x0 = st.number_input(
         "Entrada X0", value=0.0, key="t2inp1")
 
     with col2:
-        w1 = st.slider("Peso W1", 0.0, 5.0, 1.0, key="t2slw2")
+        w1 = st.slider("Peso W$_1$", 0.0, 5.0, 1.0, key="t2slw2")
         x1 = st.number_input(
         "Entrada X1", value=0.0, key="t2inp2")
 
@@ -37,19 +37,18 @@ with tab2:
 with tab3:
     col1, col2, col3 = st.columns(3)
 
-    # Tengo quue poner los numeros en subjetivo
     with col1:
-        w0 = st.slider("Peso W0", 0.0, 5.0, 1.0, key="t3slw1")
+        w0 = st.slider("Peso W$_0$", 0.0, 5.0, 1.0, key="t3slw1")
         x0 = st.number_input(
         "Entrada X0", value=0.0, key="t3inp1")
 
     with col2:
-        w1 = st.slider("Peso W1", 0.0, 5.0, 1.0, key="t3slw2")
+        w1 = st.slider("Peso W$_1$", 0.0, 5.0, 1.0, key="t3slw2")
         x1 = st.number_input(
         "Entrada X1", value=0.0, key="t3inp2")
 
     with col3:
-        w2 = st.slider("Peso W2", 0.0, 5.0, 1.0, key="t3slw3")
+        w2 = st.slider("Peso W$_2$", 0.0, 5.0, 1.0, key="t3slw3")
         x2 = st.number_input(
         "Entrada X2", value=0.0, key="t3inp3")
 
@@ -62,6 +61,6 @@ with tab3:
 
 
 
-
+st.divider()
 
 st.write("© Alejandro Barrionuevo Rosado - CPIFP Alan Turing")
