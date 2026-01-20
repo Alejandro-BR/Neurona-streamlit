@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+st.image("img/neuron.jpg", width=300)
 
 st.title("¡Hola neurona!")
 
